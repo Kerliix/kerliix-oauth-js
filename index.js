@@ -5,4 +5,4 @@ export function kerliixClient(config) {
   return new KerliixClient(config);
 }
 
-export { middleware };
+export { KerliixClient, middleware };
